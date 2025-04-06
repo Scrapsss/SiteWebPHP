@@ -1,0 +1,225 @@
+
+body
+{
+    margin: 0px;
+    padding: 0px;
+    background-color: #4d4d4d;
+}
+
+a
+{
+    text-decoration: none;
+}
+
+h1
+{
+    font-family: "Poppins", serif;
+    font-weight: 600;
+    font-size: 26px;
+    font-style: normal;
+    color: white;
+}
+
+h2
+{
+    font-family: "Poppins", serif;
+    font-weight: 600;
+    font-size: 56px;
+    line-height: 0.5;
+    font-style: normal;
+    color: white;
+}
+
+p
+{
+    font-family: "Poppins", serif;
+    font-weight: 300;
+    font-size: 16px;
+    font-style: normal;
+    color: white;
+}
+
+.RedText
+{
+    color: #ba2626;
+}
+
+h3
+{
+    font-family: "Poppins", serif;
+    font-weight: 500;
+    font-size: 11;
+    font-style: normal;
+    color: white;
+}
+
+
+
+/* ----- Header ----- */
+    header
+    {
+        background-color: #4d4d4d;
+        padding: 10px;
+        display: flex;
+        justify-content: space-between;
+
+        padding-right: 100px;
+        padding-left: 125px;
+    }
+
+    #LogoSite
+    {
+        display: flex;
+        width: 30%;
+    }
+
+    #Menu
+    {
+        display: flex;
+        width: 55%;
+
+        justify-content: space-around;
+        align-items: center;
+    }
+
+
+/* ----- Section Slider ----- */
+
+    #Slider
+    {
+        background-color: #363636;
+        height: 550px;
+        
+    }
+
+    .swiper {
+        width: 100%;
+        height: 100%;
+    }
+
+    .swiper-slide {
+        text-align: center;
+        align-content: center;
+        font-size: 18px;
+        height: 100%;
+    }
+  
+    .swiper-slide img {
+        display: block;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+
+    .swiper-pagination-bullet
+    {
+        --swiper-theme-color: #ba2626;
+    }
+
+    .Slide-Content
+    {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+
+    #Booster
+    {
+        width: 600px;
+        rotate: 5deg;
+    }
+
+    #Texte-Slide1
+    {
+        text-align: left;
+    }
+
+    button
+    {
+        background-color: #ba2626;
+        border: none;
+
+        padding-left: 50px;
+        padding-right: 50px;
+        height: 80%;
+        border-radius: 5px;
+    }
+
+/* ----- Collection ----- */
+    #Collection
+    {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #Collection-Content
+    {
+        border-radius: 30px;
+        background-color: #363636;
+        width: 97%;
+        padding: 10px;
+
+        height: 700px;
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #Filtre-Extension
+    {
+        background: linear-gradient(#ba2626 64%, #7f1a1a);
+        border-radius: 30px;
+
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        
+
+        height: 300px;
+        width: 100%;
+    }
+
+    #text_area
+    {
+        height: 20%;
+        width: 45%;
+    }
+
+    #get_Pokemon
+    {
+        background-color: grey;
+
+        height: 40%;
+    }
+
+/* ----- Carte pokémon ----- */
+
+    #CardBox
+    {
+        width: 100%;
+        height: 100%;
+
+        display: flex;
+        flex-wrap: wrap;
+        gap: 16px;
+        overflow-y: scroll;
+        justify-content: center;
+    }
+
+    .Carte
+    {
+        background-color: skyblue;
+
+        width: 250px;
+        height: 300px;
+
+        border-radius: 10px;
+
+        margin: 10px;
+    }
+
+
+    
